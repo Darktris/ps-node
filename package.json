@@ -1,5 +1,5 @@
 {
-  "name": "ps-node",
+  "name": "iar-ps",
   "version": "0.0.6",
   "description": "A process lookup utility",
   "main": "index.js",
