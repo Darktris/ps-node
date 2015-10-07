@@ -1,20 +1,20 @@
 {
-    "name": "ps-node",
-    "version": "0.0.5",
-    "description": "A process lookup utility",
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/neekey/ps.git"
-    },
-    "keywords": [
-        "ps",
-        "process",
-        "lookup",
-        "pid"
-    ],
-    "dependencies": {
-        "table-parser": "*"
-    },
-    "license": "MIT"
+  "name": "ps-node",
+  "version": "0.0.5",
+  "description": "A process lookup utility",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/interactar/ps.git"
+  },
+  "keywords": [
+    "ps",
+    "process",
+    "lookup",
+    "pid"
+  ],
+  "dependencies": {
+    "table-parser": "*"
+  },
+  "license": "MIT"
 }
