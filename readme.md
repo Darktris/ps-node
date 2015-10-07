@@ -2,6 +2,8 @@
 
 A Node.js module for looking up running processes.
 
+NOTE: This version do not use command and command arguments. Use a single long string with the command and all its arguments joined with a white space. This way it is easier to search the PS CMD column (command and arguments) with a complex RegExp - equals `ps aux | grep `.
+
 ## Install
 
 ```bash
