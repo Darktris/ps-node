@@ -25,7 +25,7 @@ ps.lookup({ pid: 12345 }, function(err, resultList ) {
 
     if( process ){
 
-        console.log( 'PID: %s, COMMAND: %s, ARGUMENTS: %s', process.pid, process.command, process.arguments );
+        console.log( 'PID: %s, COMMAND: %s', process.pid, process.command );
     }
     else {
         console.log( 'No such process found!' );
@@ -34,7 +34,7 @@ ps.lookup({ pid: 12345 }, function(err, resultList ) {
 
 ```
 
-Or use RegExp to filter `command` and `arguments`:
+Or use RegExp to filter `command`:
 
 ```javascript
 var ps = require('ps-node');
@@ -42,7 +42,6 @@ var ps = require('ps-node');
 // A simple pid lookup
 ps.lookup({
     command: 'node',
-    arguments: '--debug',
     }, function(err, resultList ) {
     if (err) {
         throw new Error( err );
@@ -51,7 +50,7 @@ ps.lookup({
     resultList.forEach(function( process ){
         if( process ){
 
-            console.log( 'PID: %s, COMMAND: %s, ARGUMENTS: %s', process.pid, process.command, process.arguments );
+            console.log( 'PID: %s, COMMAND: %s', process.pid, process.command );
         }
     });
 });
@@ -90,7 +89,7 @@ ps.lookup({
 
     resultList.forEach(function( process ){
         if( process ){
-            console.log( 'PID: %s, COMMAND: %s, ARGUMENTS: %s', process.pid, process.command, process.arguments );
+            console.log( 'PID: %s, COMMAND: %s', process.pid, process.command );
         }
     });
 });
@@ -114,7 +113,7 @@ ps.lookup({
 
     resultList.forEach(function( process ){
         if( process ){
-            console.log( 'PID: %s, COMMAND: %s, ARGUMENTS: %s', process.pid, process.command, process.arguments );
+            console.log( 'PID: %s, COMMAND: %s', process.pid, process.command );
         }
     });
 });
