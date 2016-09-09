@@ -1,14 +1,11 @@
 {
   "name": "iar-ps",
-  "version": "0.1.2",
+  "version": "0.0.6",
   "description": "A process lookup utility",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/neekey/ps.git"
-  },
-  "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha -t 0 -R spec test/test.js"
+    "url": "git://github.com/interactar/ps.git"
   },
   "keywords": [
     "ps",
@@ -17,10 +14,7 @@
     "pid"
   ],
   "dependencies": {
-    "table-parser": "^0.1.1"
+    "table-parser": "*"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "mocha": "^2.4.5"
-  }
+  "license": "MIT"
 }
