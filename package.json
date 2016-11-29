@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/theeye-io-team/ps"
+    "url": "git://github.com/theeye-io-team/ps-node"
   },
   "keywords": [
     "ps",
