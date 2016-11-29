@@ -1,6 +1,6 @@
 {
   "name": "theeye-ps-node",
-  "version": "0.0.6",
+  "version": "0.1.1",
   "description": "A process lookup utility",
   "main": "index.js",
   "repository": {
