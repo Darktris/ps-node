@@ -1,3 +1,10 @@
+# v0.1.0 - 2016-11-28 . First release
+
+> moved to theeye-io-team      
+
+> added first tag v0.1.0       
+
+
 ## 2015-09-20
 
 - Publish 0.0.5.

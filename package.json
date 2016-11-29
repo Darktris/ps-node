@@ -1,11 +1,11 @@
 {
-  "name": "ps-node",
+  "name": "theeye-ps-node",
   "version": "0.0.6",
   "description": "A process lookup utility",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/interactar/ps.git"
+    "url": "git://github.com/theeye-io-team/ps"
   },
   "keywords": [
     "ps",
